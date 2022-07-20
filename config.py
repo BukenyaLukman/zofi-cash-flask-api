@@ -1,0 +1,8 @@
+class TestingConfig(Config):
+    TESTING = True
+    SQLALCHEMY_ECHO = False
+    JWT_SECRET_KEY = 'JWT-SECRET'
+    SECRET_KEY = 'SECRET-KEY'
+    SECURITY_PASSWORD_HASH = 'pbkdf2_sha512'
+    SECURITY_PASSWORD_SALT = 'SALT'
+    
